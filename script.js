@@ -27,6 +27,9 @@ function checkAnswer(questionNumber, isCorrect) {
       document.getElementById('question-6').classList.remove('hidden');
       document.getElementById('options-6').classList.remove('hidden');
     } else if (questionNumber === 6) {
+      document.getElementById('question-7').classList.remove('hidden');
+      document.getElementById('options-7').classList.remove('hidden');
+    } else if (questionNumber === 7) {
       document.getElementById('final-message').classList.remove('hidden');
       document.getElementById('final-buttons').classList.remove('hidden');
     }
